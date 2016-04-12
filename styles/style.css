@@ -1,5 +1,6 @@
 /* Website template by freewebsitetemplates.com */
 /*------------------------- Fonts ---------------------------*/
+/* @font-face establishes font name and URL where it can be found */
 @font-face {
 	font-family: 'quattrocento_sansregular';
 	src: url('../fonts/quattrocentosans-regular-webfont.eot');
