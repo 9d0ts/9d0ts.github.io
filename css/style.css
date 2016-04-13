@@ -51,6 +51,9 @@ h2 {
   color: #666666;
   margin: 12px 0px 0px 0px;
 }
+img {
+  margin: 0px 0px 22px 0px;
+}
 p {
   margin: 12px 0px; /* top/bottom =12 left/right=0 */
 }
@@ -74,4 +77,9 @@ table {
 }
 .main {
   width: 800px;
+}
+.number {
+  margin: 36px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: bold;
 }
