@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>JavaScript</title>
+<title>Bookmarklet</title>
 <style>
 figure {
 	color: #999;
@@ -21,11 +21,14 @@ pre > code {
   padding: 1rem;
   word-wrap: normal;
 }
+#suggestion {
+	margin-bottom: 2rem;
+}
 </style>
 </head>
 <body>
 <figure>
-  <figcaption>1.</figcaption>
+  <figcaption>1. Did you see a pop-up box?</figcaption>
   <pre><code>
   	alert("Hello, world!"); 
 </code></pre>
@@ -33,11 +36,157 @@ pre > code {
 
 <!-- #2 -->
 <figure>
-  <figcaption>2.</figcaption>
+  <figcaption>2. What's the sum?</figcaption>
   <pre><code>
-  	console.log(1193 + 57.2); 
+  	console.log(1234 + 56.7); 
 </code></pre>
 </figure>
+
+<!-- #3 -->
+<figure>
+  <figcaption id="suggestion">3. Try adding some different numbers.</figcaption>
+</figure>
+
+<!-- #4 -->
+<figure>
+  <figcaption>4. What's the difference?</figcaption>
+  <pre><code>
+  	console.log(951 - 51); 
+</code></pre>
+</figure>
+
+<!-- #5 -->
+<figure>
+  <figcaption>5. *</figcaption>
+  <pre><code>
+  	console.log(6 * 7); 
+</code></pre>
+</figure>
+
+<!-- #6 -->
+<figure>
+  <figcaption>6. /</figcaption>
+  <pre><code>
+  	console.log(63 / 9); 
+</code></pre>
+</figure>
+
+<!-- #7 -->
+<figure>
+  <figcaption>7. 24</figcaption>
+  <pre><code>
+  	console.log(10 / 2 * 8 - 20 + 4); 
+</code></pre>
+</figure>
+
+<!-- #8 -->
+<figure>
+  <figcaption id="suggestion">8. Type a different equation to make 24.</figcaption>
+</figure>
+
+<!-- #9 -->
+<figure>
+  <figcaption>9. What does ** do? Experiment by copying and then changing the 3. Try 4 and 5.</figcaption>
+  <pre><code>
+  	console.log(2 ** 3); 
+</code></pre>
+</figure>
+
+
+<!-- #10 -->
+<figure>
+  <figcaption>9. What does % do? Experiment by copying and then changing the 2. Try 3 and 4 and 5.</figcaption>
+  <pre><code>
+  	console.log(10 % 2); 
+</code></pre>
+</figure>
+
+<!-- #11 -->
+<figure>
+  <figcaption>11. Add words.</figcaption>
+  <pre><code>
+  	console.log("cats" + " are" + " fun."); 
+</code></pre>
+</figure>
+
+<!-- #12 -->
+<figure>
+  <figcaption>12. True! 3 is greater than 2.</figcaption>
+  <pre><code>
+  	console.log(3 > 2); 
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>13. False!</figcaption>
+  <pre><code>
+  	console.log(3 < 2); 
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>14. True! Why?</figcaption>
+  <pre><code>
+  	console.log("Aardvark" < "Zebra");
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>15. True! They're equal.</figcaption>
+  <pre><code>
+  	console.log(5 == 5);
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>16. True! They're equal.</figcaption>
+  <pre><code>
+  	console.log(5 == 10 / 2);
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>17. True! They're not equal.</figcaption>
+  <pre><code>
+  	console.log(5 != 12 / 2);
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>18. True and false? That's false.</figcaption>
+  <pre><code>
+  	console.log(true && false);
+  	console.log("5" && 5);
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>19. True or false? That's true.</figcaption>
+  <pre><code>
+  	console.log(true || false);
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>20. 10 x 10 = 100 </figcaption>
+  <pre><code>
+  	var num = 10; 
+  	console.log(num * num);
+
+</code></pre>
+</figure>
+
+<figure>
+  <figcaption>21. Guess my number. </figcaption>
+  <pre><code>
+	var myNum = 37;
+	var num = prompt("Pick a number", "");
+	if ( myNum == num )
+		alert("You win!");
+  </code></pre>
+
+</figure>
+
 
 </body>
 </html>
