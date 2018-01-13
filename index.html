@@ -1,121 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>History Mysteries</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-  <div class="main">
-  <a name="top">&nbsp;</a><br>
-  <table width="800px" cellpadding="24" cellspacing="0" border="0">
-  <tr>
-  <td width="60%">
-	<h1>History Mysteries</h1>
-    <p>
-      Each picture below tells a story about computer history.
-      The story, however, is hidden. To read it, you must
-      <span class="highlight_color">have the soul of a hacker:</span>
-      you must guess the name of the hidden page on this website 
-      where the story resides.</p>
-      
-      <p>Type your guess in the address bar above. If you
-      guess correctly, the story will reveal itself.
-    </p>	
-  </td>
-  <td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
-  <td>
-  	<h2>&nbsp;</h2>
-  <!--
-  	<h2>Instructions</h2>
-  	<p class="small" s>
-          <span class="highlight_color">Read the hint</span> above each picture. 
-          The hint tells you something about the hidden page name.
-	</p>
-  	<p class="small" s>
-          <span class="highlight_color">Search Google</span> for the picture.
-	</p>
-    <p class="small">
-          Use the hint and search results to <span class="highlight_color">
-          guess the name of the hidden page.</span>
-	</p>
-	<p class="small">
-          <span class="highlight_color">Type your guess</span> in the address bar above. If you're correct,
-          the story of one picture will appear. 
-	</p>
-	<p class="small">
-		<span class="highlight_color">Find the information you need 
-		for your worksheet.</span>
-	</p>
-	-->
-	<ul>
-	<li class="small">All page names end with .html</li>
-    <li class="small">No capital letters.</li>
-	<li class="small">No spaces.</li>
-    </p>
-    </td>
-    </tr>
-    </table>
-    <h2>
-      Pictures
-    </h2>
-    <table valign="top" width="100%" cellpadding="6px" border="0">
-    <tr>
-    <td>
-      <a name="1"><span class="number">1.</span> <strong>Hint!</strong> 
-      The number of wheels is half the name.</a><br>
-      <img src="images/1.jpg" width="60%">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="2"><span class="number">2.</span>  <strong>Hint!</strong> 16</a>
-      <br><img src="images/2.png" width="50%">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="3"><span class="number">3.</span>  <strong>Hint!</strong> 
-      She was the 1st of a kind. <strong>Count</strong> on it.</a>
-      <br><img src="images/3.jpg">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="4"><span class="number">4.</span>  <strong>Hint!</strong>X-ray Goggles or Inspect Element can help.</a>
-      <br><img src="images/4.png" width="60%">
-      <!-- The answer is: codebreakers.html -->
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <!-- anchor names don't match the visible numbers -->
-      <a name="6"><span class="number">5.</span>  <strong>Hint!</strong> I see.</a>
-      <br><img src="images/6.jpg" width="50%">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="7"><span class="number">6.</span>  <strong>Hint!</strong> 
-      This <strong>name</strong> conveys what the 1st computer bug isn't doing much of anymore.</a>
-      <br><img src="images/7.jpg" width="70%">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="9"><span class="number">7.</span>   <strong>Hint!</strong>  
-      The company that missed its chance.</a>
-      <br><img src="images/9.jpg" width="60%">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <a name="11"><span class="number">8.</span>  <strong>Hint!</strong> 
-      The last letter.</a>
-      <br><img src="images/11.jpg" width="60%">
-    </td>
-    </tr>
-    </table>
-    <p><a href="#top">Return to Top</a></p>
-    </div> <!-- class="main" -->
-  </body>
+<head>
+<title>Bookmarklet</title>
+<style>
+figure {
+	color: #999;
+}
+pre, code {
+  font-family: monospace, monospace;
+}
+pre {
+  overflow: auto;
+}
+pre > code {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+  color: #1A83FB;
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+}
+</style>
+</head>
+<body>
+<figure>
+  <figcaption>1.</figcaption>
+  <pre><code>
+  	alert("Hello, world!"); 
+</code></pre>
+</figure>
+
+<!-- #2 -->
+<figure>
+  <figcaption>2.</figcaption>
+  <pre><code>
+  	console.log(1193 + 57.2); 
+</code></pre>
+</figure>
+
+</body>
 </html>
