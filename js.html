@@ -37,15 +37,17 @@ console.log('%cHello world', 'font-size:40px;color:#fff;text-shadow:0 1px 0 #ccc
 
 "Terry".charAt(0) or "Terry"[0]
 
-console.log('%cHello world', 'font-size:40px;');
+console.log('%c Hello world', 'font-size:40px;');
 
 console.log('%c Oh my heavens! ', 'background: #222; color: #bada55');
+
+console.log('%c Oh my heavens! ', 'font-family: Comic Sans MS');
 
 See https://developers.google.com/web/tools/chrome-devtools/console/console-write
 -->
 
 <figure>
-  <figcaption>1. Show a pop-up box?</figcaption>
+  <figcaption>1. Show a pop-up box.</figcaption>
   <pre><code>
   	alert("Hello, world!"); 
 </code></pre>
@@ -53,7 +55,7 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #2 -->
 <figure>
-  <figcaption>2. What's the sum?</figcaption>
+  <figcaption>2. Add.</figcaption>
   <pre><code>
   	console.log(1234 + 56.7); 
 </code></pre>
@@ -66,7 +68,7 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #4 -->
 <figure>
-  <figcaption>4. What's the difference?</figcaption>
+  <figcaption>4. Subtract.</figcaption>
   <pre><code>
   	console.log(951 - 51); 
 </code></pre>
@@ -74,7 +76,7 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #5 -->
 <figure>
-  <figcaption>5. *</figcaption>
+  <figcaption>5. Multiply.</figcaption>
   <pre><code>
   	console.log(6 * 7); 
 </code></pre>
@@ -82,7 +84,7 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #6 -->
 <figure>
-  <figcaption>6. /</figcaption>
+  <figcaption>6. Divide.</figcaption>
   <pre><code>
   	console.log(63 / 9); 
 </code></pre>
@@ -90,7 +92,7 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #7 -->
 <figure>
-  <figcaption>7. Twenty-four</figcaption>
+  <figcaption>7. Make 24.</figcaption>
   <pre><code>
   	console.log(10 / 2 * 8 - 20 + 4); 
 </code></pre>
@@ -103,119 +105,107 @@ See https://developers.google.com/web/tools/chrome-devtools/console/console-writ
 
 <!-- #9 -->
 <figure>
-  <figcaption id="suggestion">9. Type more calculations of your own.</figcaption>
-</figure>
-
-<!-- #10 -->
-<figure>
-  <figcaption>10. What does ** do? Copy and run this equation. Then experiment by changing the 3 to 4 and 5.</figcaption>
+  <figcaption>9. What does ** do? To find out, copy and run this command. Then change the 3 to 4.</figcaption>
   <pre><code>
   	console.log(2 ** 3); 
 </code></pre>
 </figure>
 
+<!-- #10 -->
+<figure>
+  <figcaption>9. What does ** do? To find out, copy and run this command. Then change the 3 to 4.</figcaption>
+  <pre><code>
+  	console.log(2 ** 3); 
+</code></pre>
+</figure>
 
 <!-- #11 -->
 <figure>
-  <figcaption>11. What does % do? Experiment by copying and running this equation. Then experiment by changing the 2 to 3 and 4.</figcaption>
+  <figcaption>11. In a famous puzzle, a king promises to put 1 grain of sand on the first square of a chessboard and twice that number on every succeeding square. So there are 16 grains on the 4th square. How many grains on the last (64th) square?. (Hint! Use ** to figure it out.)</figcaption>
+</figure>
+
+<!-- #12 -->
+<figure>
+  <figcaption>12. What does % do? Copy and run this command. Then change the 2 to 3.</figcaption>
   <pre><code>
   	console.log(10 % 2); 
 </code></pre>
 </figure>
 
-<!-- #12 -->
-<figure>
-  <figcaption>12. Add words together.</figcaption>
-  <pre><code>
-  	console.log("cats" + " are" + " fun."); 
-</code></pre>
-</figure>
-
 <!-- #13 -->
 <figure>
-  <figcaption>13. True! 3 is greater than 2.</figcaption>
+  <figcaption>13. Add letters and words together.</figcaption>
   <pre><code>
-  	console.log(3 > 2); 
+  	console.log("a" + "b" + "c" + "def"); 
 </code></pre>
 </figure>
 
 <!-- #14 -->
 <figure>
-  <figcaption>14. False!</figcaption>
+  <figcaption>14. Find the length of a word.</figcaption>
   <pre><code>
-  	console.log(3 < 2); 
+  	console.log("Madison".length); 
 </code></pre>
 </figure>
 
 <!-- #15 -->
 <figure>
-  <figcaption>15. True! Why?</figcaption>
-  <pre><code>
-  	console.log("Aardvark" < "Zebra");
-</code></pre>
+  <figcaption>15. How long is the longest word you know?</figcaption>
 </figure>
 
 <!-- #16 -->
 <figure>
-  <figcaption>16. True! They're equal.</figcaption>
+  <figcaption>16. Big letters! Copy and run this command. Then change the 40 to other numbers.</figcaption>
   <pre><code>
-  	console.log(5 == 5);
+  	console.log('%c Hello world', 'font-size:40px;');
 </code></pre>
 </figure>
 
 <!-- #17 -->
 <figure>
-  <figcaption>17. True! They're equal.</figcaption>
+  <figcaption>17. Colored letters! Copy and run this command. Then change 990000 to other numbers.</figcaption>
   <pre><code>
-  	console.log(5 == 10 / 2);
+  	console.log('%c Hello world', 'color: #990000;');
 </code></pre>
 </figure>
 
 <!-- #18 -->
 <figure>
-  <figcaption>18. False! They're NOT equal.</figcaption>
+  <figcaption>18. Fonts! Copy and run this command. Then change Comic Sans MS to Arial or Georgia.</figcaption>
   <pre><code>
-  	console.log("Yes" == "yes");
+  	console.log('%c Hello world', 'font-family: "Comic Sans MS";');
 </code></pre>
 </figure>
-
+	
 <!-- #19 -->
 <figure>
-  <figcaption>19. True! They're NOT equal. != means "not equal."</figcaption>
+  <figcaption>19. 5 is equal to 10/2. True!</figcaption>
   <pre><code>
-  	console.log(5 != 12 / 2);
+  	console.log(5 == 10 / 2);
 </code></pre>
 </figure>
 
 <!-- #20 -->
 <figure>
-  <figcaption>20. && means "and." True and false ==> false.</figcaption>
+  <figcaption>20. Say hello.</figcaption>
   <pre><code>
-  	console.log(true && false);
-  	console.log("5" && 5);
+  	var name = prompt("what's your name?");
+	console.log("Hi, " + name);
 </code></pre>
 </figure>
 
 <!-- #21 -->
 <figure>
-  <figcaption>21. || means "or." True or false ==> true.</figcaption>
-  <pre><code>
-  	console.log(true || false);
-</code></pre>
-</figure>
-
-<!-- #22 -->
-<figure>
-  <figcaption>22. "var" means "variable." 10 x 10 = 100 </figcaption>
+  <figcaption>21. "var" means "variable. The variable "num" is 10, so what is num * num? </figcaption>
   <pre><code>
   	var num = 10; 
   	console.log(num * num);
 </code></pre>
 </figure>
 
-<!-- #23 -->
+<!-- #22 -->
 <figure>
-  <figcaption>23. Guess my number. </figcaption>
+  <figcaption>22. Guess my number. </figcaption>
   <pre><code>
 	var myNum = 37;
 	var num = prompt("Pick a number", "");
